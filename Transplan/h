@@ -1,0 +1,429 @@
+[33mcommit d709aae3bc7fb6fa263ea1a5a9a4b185480183d1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Mon Jul 4 16:17:18 2022 -0400
+
+    added detection post processing and thresholding for detection; from now on all the detection postprocessing should be added to this section
+
+[33mcommit 601fef38fa3e465dd2db0cd5bbde61062b56c115[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Thu Jun 30 18:48:46 2022 -0400
+
+    DBSCAN threshold changed; spectral clustering added
+
+[33mcommit 65459c2e4232742a6f474e8b37fd462953f2fc9f[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue Jun 28 17:31:11 2022 -0400
+
+    visualization fixed;
+
+[33mcommit 8cba51dc3b0bcfe9a9d4f9e4e3327167fb7ad03f[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue Jun 28 15:51:09 2022 -0400
+
+    error for when the subrepos of Results exists omited. Meter now should be called twice
+
+[33mcommit c57446968925112c6c68a4c03822d9d9008b27e3[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Mon Jun 27 13:59:17 2022 -0400
+
+    class filtering added to detectron 2
+
+[33mcommit 1580e8529fb15c8c55d218dde919f630b1ee3fca[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Jun 24 17:07:57 2022 -0400
+
+    changes the resampling algorithm
+
+[33mcommit 3b00b9ad44fabeadfb7717861a76161298f38b41[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Jun 24 15:42:24 2022 -0400
+
+    DeepSort added to pipeline and its working
+
+[33mcommit fdaacb2fa67c94af86678dbb290914fef5fc8b6f[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Thu Jun 23 19:39:07 2022 -0400
+
+    cluster labeling gui replaced with tracklabelling gui
+
+[33mcommit 72a362037e069597591cb89503839891dad2060b[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Thu Jun 23 19:26:07 2022 -0400
+
+    cluster labelling gui implemented in the core; commented parts should be remove; it should be connected to the pipe line
+
+[33mcommit 6c1b664feef8d89a17e15e05416b7881a032e7a5[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed Jun 22 16:39:10 2022 -0400
+
+    added the deepsort codes provided by Kumar
+
+[33mcommit 28d4db2bb3ee5dee4d38d875d31af8dc1e3df3c1[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue Jun 21 18:59:12 2022 -0400
+
+    CMMProfile added; it is not working for inputs with length > 1e5; emailed the right person
+    :
+
+[33mcommit af292b805d9a8cd357a86bd52aeaf339e220f1c2[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue Jun 21 15:53:43 2022 -0400
+
+    added clustering and vis clustering; assuming the only clustering aladd
+
+[33mcommit 6ea41fa3f7a78cd56ae427c146046622a55a603f[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Mon Jun 20 18:04:40 2022 -0400
+
+    counting part with meters added; thresholds and rejection capability y should be added
+
+[33mcommit ca3216bc2fb5047c7dbf3b098f0d91447d393ca1[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Jun 17 20:18:21 2022 -0400
+
+    pixel cordinates converted to meter via --Meter
+
+[33mcommit ed9ba17410fc762931605a5df417ee0b143d3397[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Jun 17 18:27:25 2022 -0400
+
+    tracking onward stored files now have the detector inside their path; if the tracker has no detector make sure to pass a dummy detector name to it. preferably the name of tracker
+
+[33mcommit ffddc24a14a48ced57152289c2aa522421427d6a[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Jun 17 16:53:55 2022 -0400
+
+    labeling guide added in the track_labeling_gui folder
+
+[33mcommit 75503519cd2b5596129cd16f69771c39e51a428e[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Thu Jun 16 19:09:54 2022 -0400
+
+    added labelled tracks visualization
+
+[33mcommit 315a05764bde5bc059e3cb7833bd3514527f35eb[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Thu Jun 16 18:24:50 2022 -0400
+
+    vis all trajectories added
+
+[33mcommit 9969d5fe2b798026e3a5579e99ed1e9aee839c38[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Thu Jun 16 15:48:25 2022 -0400
+
+    top view is downloaded from gmaps api
+
+[33mcommit 531beb3e4f3141cc0b75e38aa351ce4e8a405215[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed Jun 15 19:14:55 2022 -0400
+
+    added tracklabeling functionality for project. pkl versions of detection and tracking are also stored
+
+[33mcommit 73b8cc6b31f33764410c76957febcb56930411f0[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed Jun 15 15:29:55 2022 -0400
+
+    df as pkl added
+
+[33mcommit 4da5c9bd96cae07cdda2c5e7f4ea6dbdf2336b47[m[33m ([m[1;32mgooglemaps[m[33m)[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue Jun 14 15:53:17 2022 -0400
+
+    detectron 2 now works for me and kumar
+
+[33mcommit 221edc353d4b47a5e2bb78d5fd470d91be92e36f[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue Jun 14 14:46:53 2022 -0400
+
+    homography vis also completed
+
+[33mcommit ff7b82fd5cb021cfad0e865ed7fa652c15d39a9a[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue Jun 14 14:21:56 2022 -0400
+
+    homographyGUI restored after being lost in the merge process
+
+[33mcommit d1e27f1289cd376720a8f104ec8e862afc6c0c96[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Mon Jun 13 19:37:36 2022 -0400
+
+    temp commit
+
+[33mcommit 2e4d1105c268fdb4069dfc53b21b67cc70156196[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Mon Jun 13 19:04:52 2022 -0400
+
+    detectron2 added fixed for local pc in the lab
+
+[33mcommit 758a79e1ffcd44372402d24c400f13c393918b37[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Mon Jun 13 18:16:41 2022 -0400
+
+    detectviz format changed
+
+[33mcommit e8db2f2a6bf355ea12b6e864e0dd4486982e1a28[m[33m ([m[1;32mkumar[m[33m)[m
+Author: Kumarj95 <jha.kumarv@gmail.com>
+Date:   Thu Jun 2 18:30:04 2022 -0400
+
+    Added functionality for Detectron2
+
+[33mcommit fd2a830a8e5afb42e0ccc2b8bec034d304c3da0b[m
+Author: Kumarj95 <jha.kumarv@gmail.com>
+Date:   Wed Jun 1 10:18:11 2022 -0400
+
+    Added environment functionality for OpenMM and YOLOv5
+
+[33mcommit 9c0d2fc338cebff032da595133ecee5c2b1e1e90[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Sun May 29 10:57:46 2022 -0400
+
+    reprojection and homography GUI is done
+
+[33mcommit 4fd738384a56747e7dd5ba08887903763dc615f7[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed May 25 17:13:19 2022 -0400
+
+    homography gui working fine; added all files
+
+[33mcommit 2163fee5ac3397e0f824a96a13945dab1e4ef5ac[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed May 25 17:12:05 2022 -0400
+
+    homography gui is working fine
+
+[33mcommit 28b5bd2c73b859d103a3a4c0c3d1d36ebd75d9d6[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed May 18 13:34:47 2022 -0400
+
+    codec for vistrack changed to mp4v
+
+[33mcommit 2ab33f136f471c83a5bc228503f988b474d3aa49[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue May 17 13:47:39 2022 -0400
+
+    Center Track df completed
+
+[33mcommit 1d5c55b9168125f3e511d46fadbe69dd3a9002cb[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue May 17 13:40:17 2022 -0400
+
+    CenterTrack is running in its own conda env
+
+[33mcommit 897309b0d3b89d840dbb61dbc33aad774487e2a2[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue May 17 10:32:03 2022 -0400
+
+    an initial way for using different conda envs are added
+
+[33mcommit 4180eb9e158346e86ffff3fe95b905c7bfc22c95[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue May 10 14:04:21 2022 -0400
+
+    bug fixed! now you can perform detection without specifying a tracker
+
+[33mcommit 5924a961dfd8d9af20f489b4ac433dd0ab564dd7[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Mon May 9 11:50:23 2022 -0400
+
+    automatic weight download for detectron2
+
+[33mcommit 11194c1d6c44b94b548d0df340b67e6358e103ad[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Thu May 5 17:24:34 2022 -0400
+
+    detection and tracking pipeline completed
+
+[33mcommit 9f50b0191eda4750c774f2370391b6f56fa2ac06[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed May 4 16:27:53 2022 -0400
+
+    detection and visualization-detection completed
+
+[33mcommit 393ce46df84d4fe2a6027a28b44a3b74da5efad4[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue May 3 18:30:46 2022 -0400
+
+    in the process of reimplementing the whole pipe line; detection part is not yet finished
+
+[33mcommit ad109d88d3f24cbdc6530671d16e37f0b916586c[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed Apr 27 18:00:33 2022 -0400
+
+    in the process of creating a handy package out of this pipeline
+
+[33mcommit ac57d4b934259e20e5de8c9c265f1e905d28c406[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed Apr 27 15:26:18 2022 -0400
+
+    dont know
+
+[33mcommit ac44334023bfaa4a496c8618d68bec5c5a6db95f[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed Apr 27 15:23:33 2022 -0400
+
+    counting part works to some extend; still needs parameter tuning or simekinds of improvements. Also note that when the trajectory has only 1 point, across distance will be neative
+
+[33mcommit da4cc8bdd7b2778aef451a6d212e26aebb6b57c9[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Mar 25 07:29:23 2022 -0400
+
+    unchanged
+
+[33mcommit b0061a29778280bdf4bbca5f3e512c2029298ff3[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Mar 25 07:28:13 2022 -0400
+
+    first run of the counting part
+    
+    q
+    exit()
+
+[33mcommit 78212aee8731cd22b0d4ac786f60f6c3b4211bda[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Mar 25 06:15:52 2022 -0400
+
+    selected tracks visualized
+
+[33mcommit abc259e10c2f8da9920db9e379a16a72ea569281[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Mar 25 05:25:37 2022 -0400
+
+    export of track labelling gui changed to pkl format preserving the np array dtype
+
+[33mcommit fc9b939ab84c1335ce0d74238b5e9b2aef9a13ce[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Mar 25 04:31:54 2022 -0400
+
+    cam_gen_ui next and skip are doing the same thing
+
+[33mcommit 442b2ef6f2d7421d59b74b5e78dadcd86c0bd386[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Mon Mar 21 13:06:51 2022 -0400
+
+    tarck labelling gui loading part is working; the homograpy still suchs though
+
+[33mcommit d300d021574c980a95494f0d3a229ded9e4ee075[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Mon Mar 21 09:03:11 2022 -0400
+
+    projection point on the ground fixed
+
+[33mcommit f8f4f3f9b156b17ab9cb98274bc9c10104962c63[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Mar 18 05:48:57 2022 -0400
+
+    paired points
+
+[33mcommit cddbb9068c4538c81a84784fcd786320c1ca558c[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Mar 18 04:45:17 2022 -0400
+
+    code for plotting all trajectories added
+
+[33mcommit a196acfd1efe4c6ce673ba643c60cac6d16d63a6[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Mar 18 04:09:56 2022 -0400
+
+    homography done with over 100 points; did not resolve the error in trajectories
+
+[33mcommit 321d2f09ebb5af5977dee0235357c467657671ba[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Thu Mar 10 19:54:26 2022 -0500
+
+    some files got updated; next -> fix the track labelingn ui so that it can work with current txt file format
+
+[33mcommit b131736ceb49eb139e59da42c16c540196e96610[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Thu Mar 10 19:14:37 2022 -0500
+
+    detection, tracking, homography got tested again; add a unified format for input output files
+
+[33mcommit d8b5830d270512232add92965b24ee6e9383e317[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed Mar 9 14:54:20 2022 -0500
+
+    running detection on undistorted video
+
+[33mcommit 7fe394f87c5cc0ef38187acbbd14c4cbe8a316bd[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed Mar 9 14:53:27 2022 -0500
+
+    qt5 and pymatread installed; additive code lines commented
+
+[33mcommit 4aae15ff151412876ceac31a7286b73c40e4da20[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Wed Mar 9 14:52:05 2022 -0500
+
+    preprocessing was done in matlab; file size is huge try to fix that; open cv and MATLAB use different distortion models
+
+[33mcommit 640218017fd005e8e95fa6df08a4cd4661a80ff7[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Tue Mar 8 19:00:16 2022 -0500
+
+    track labelling code added; also preprocessing code to repove fisheye distortion added; preprocessing code is in MATLAB still
+
+[33mcommit 0618940b4d64f9c6a46cf2a5ad4e4310d374e5b1[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Sat Feb 19 18:59:58 2022 -0500
+
+    trajectory visualization adde; homography is a bit off
+
+[33mcommit 7da974fd94e5c0e3c200ab907959d335e3e9c1d8[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Sat Feb 19 18:28:15 2022 -0500
+
+    transforming_points works just tested
+
+[33mcommit fc092bd0da61939f6ae398e4efe0b6a4a8c148ba[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Sat Feb 19 14:59:27 2022 -0500
+
+    homography visualization on images doen
+
+[33mcommit c115d9667b287d7da8cae435e70d44b789d05aaa[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Sat Feb 19 12:43:50 2022 -0500
+
+    get image from video tested
+
+[33mcommit 17409aab8ac0b400f58f348eb3b0fb0387370433[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Sat Feb 19 12:29:02 2022 -0500
+
+    yolo files removed; additive .txt and .jpg files removed
+
+[33mcommit 36c17bcf775456fd96e6483402229ffaa0965bad[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Feb 18 20:39:55 2022 -0500
+
+    tracks to video tested; file moved to upper directory
+
+[33mcommit 61a9276574f404468db21bfd31d7f894e7106134[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Feb 18 20:22:31 2022 -0500
+
+    sort tested: path made relative:tracking moved to an upper directory
+
+[33mcommit 4a7032b6dd24a29f7e4d642fc0725fef02719689[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Feb 18 19:03:15 2022 -0500
+
+    change bbox format tested; path made relative; additive formating info removed from the detection file
+
+[33mcommit dfc7d866b0f58d60f357bfbefa2042e0d0311a6a[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Feb 18 18:28:38 2022 -0500
+
+    detectron 2 works; path made relative; first run on git files
+
+[33mcommit 9b9f0d604251543592135f0af642aeb47411eae3[m
+Author: sajjadpsavoji <savoji@yorku.ca>
+Date:   Fri Feb 18 09:54:49 2022 -0500
+
+    add base files
+
+[33mcommit 25d4c455c9d81225ecd5c69d7f0e0812e0d56daf[m
+Author: Sajjad P. Savoji <sj.pakdaman@gmail.com>
+Date:   Thu Feb 17 23:05:06 2022 -0500
+
+    Initial commit

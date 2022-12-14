@@ -1,0 +1,11 @@
+assets
+deploy
+docs
+exps
+motmetrics
+tools
+trackers
+trackeval
+utils
+videos
+yolox

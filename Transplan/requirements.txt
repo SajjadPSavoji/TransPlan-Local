@@ -1,0 +1,13 @@
+opencv-python
+tqdm
+pandas
+matplotlib
+googlemaps
+pillow==9.2.0
+filterpy==1.4.5
+lap==0.4.0
+scikit-image
+seaborn
+sklearn
+sympy
+hmmlearn
